@@ -14,11 +14,11 @@ function App() {
       <div id="home">
         <Hero />
       </div>
-      <div id="products">
-        <Products />
-      </div>
       <div id="about">
         <About />
+      </div>
+      <div id="products">
+        <Products />
       </div>
       {/* Add more sections with unique IDs as needed */}
     </div>
