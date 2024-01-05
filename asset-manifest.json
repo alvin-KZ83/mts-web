@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mts-web/static/css/main.ad54428a.css",
+    "main.js": "/mts-web/static/js/main.40c30cb4.js",
+    "static/js/787.3568fc95.chunk.js": "/mts-web/static/js/787.3568fc95.chunk.js",
+    "static/media/sample1.jpg": "/mts-web/static/media/sample1.4e339310cb37ce932486.jpg",
+    "index.html": "/mts-web/index.html",
+    "main.ad54428a.css.map": "/mts-web/static/css/main.ad54428a.css.map",
+    "main.40c30cb4.js.map": "/mts-web/static/js/main.40c30cb4.js.map",
+    "787.3568fc95.chunk.js.map": "/mts-web/static/js/787.3568fc95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad54428a.css",
+    "static/js/main.40c30cb4.js"
+  ]
+}
