@@ -1,4 +1,5 @@
 // src/components/About.js
+import sample1 from '../img/sample1.jpg'; // Import the image
 
 const About = () => {
     const values = [
@@ -8,6 +9,11 @@ const About = () => {
         { colorClass: "bg-red-500", backgroundClass: "bg-red-300", textColorClass: "bg-red-100", letter: "I", description: "NTEGRITY", info: "Conducting ourselves with honesty and honor in all situations." },
         { colorClass: "bg-purple-500", backgroundClass: "bg-purple-300", textColorClass: "bg-purple-100", letter: "N", description: "O DEFECTS", info: "Committing to the highest quality standards and flawless execution." },
         { colorClass: "bg-indigo-500", backgroundClass: "bg-indigo-300", textColorClass: "bg-indigo-100", letter: "G", description: "O! GO! GO TO THE GOAL!", info: "Focused and driven to achieve our objectives efficiently." }
+    ];
+
+    const awards = [
+        { title: "Hino Best Supplier 7 times consecutively", image: sample1 },
+        { title: "Isuzu Quality Award 7 times consecutively", image: sample1 }
     ];
 
     return (
@@ -53,6 +59,20 @@ const About = () => {
                     </tbody>
                 </table>
             </div>
+
+            {/* Awards Section */}
+            <div id="awards" className="mb-8">
+                <h3 className="text-2xl font-semibold mb-4">Our Awards</h3>
+                <div className="grid grid-cols-2 gap-4">
+                    {awards.map((award, index) => (
+                        <div key={index} className="flex items-center border rounded p-4">
+                            <img src={award.image} alt={award.title} className="w-12 h-12 mr-4"/>
+                            <p className="font-semibold">{award.title}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
         </div>
     );
 };
